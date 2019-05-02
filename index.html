@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<title>Herinckx Website</title>
+<title>Herinckx Senior Inquiry Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <title>Navigation bar DEMO</title>
 <link rel="stylesheet" href="style.css">
@@ -21,6 +23,24 @@
     <main>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat libero eget magna commodo, quis pharetra tellus pretium. Sed viverra ante in mauris finibus dapibus. Maecenas congue dapibus nulla, eu gravida orci consequat eu. Phasellus nec nunc malesuada, aliquam massa ac, accumsan metus. Fusce sed dignissim lectus. Nunc elit tellus, sollicitudin ac accumsan ut, egestas et dui. Maecenas aliquam est a ligula scelerisque, in aliquam neque sodales. Nullam condimentum euismod dictum. Curabitur non ex elementum, pretium enim ut, ornare ipsum.</p>
     </main>
+   <div class="AboutMe">
+      a
+   </div>
+   <div class="Diversity">
+      b
+   </div>
+   <div class="Communication">
+      c
+   </div>
+   <div class="Critical">
+      d
+   </div>
+   <div class="Ethics">
+      e
+   </div>
+   <div class="Reflective">
+      f
+   </div>
 </body>
 <style>
 body {
@@ -60,4 +80,16 @@ header li a {
     text-decoration: none;
 }
    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+    //$('.MyPhotos').hide();
+$(".Change1").click(function() {
+$(".OtherPhotos").hide();
+$(".MyPhotos").show();
+});
+ $(".Change2").click(function() {
+ $(".OtherPhotos").show()
+ $(".MyPhotos").hide();
+ } );
+  </script>
 </html>
